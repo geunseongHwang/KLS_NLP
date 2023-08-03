@@ -2,10 +2,16 @@
 - 1차년도 대국민이슈키워드 분석
   - 언급량분석
     - SQL과 python으로 작업
-    - 
+    - 주로 매체별 빈도와 빈도예측을 시각화하여 보여줌
   - 연관어분석
-    - python
+    - python으로 작업
+    - ass_model_train으로 연관어 모델(fasttext)을 생성
+    - 생성된 모델을 통해 코사인 유사도를 구하여 association_datamart에서 데이터 마트 생성 
   - 감성분석
-    - python
+    - python으로 작업
+    - senti_model_train으로 lightGBM을 RandomSearch방식으로 파라미터를 조정하여 모델 생성
+    - 생성된 모델을 통해 감성(긍정 또는 부정)을 매김
   - 설문조사분석
-    - python
+    - python으로 작업
+    - 텍스트 임베딩 모델인 fasttext를 통해 문장을 임베딩
+    - 텍스트 요약모델인 textrank을 통해 요약문을 생성하여 보여줌
