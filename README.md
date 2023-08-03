@@ -1,8 +1,11 @@
 # KALIS PROJECT
 - 1차년도 대국민이슈키워드 분석
   - 언급량분석
-    - SQL
+    - SQL과 python으로 작업
+    - 
   - 연관어분석
     - python
   - 감성분석
+    - python
+  - 설문조사분석
     - python
